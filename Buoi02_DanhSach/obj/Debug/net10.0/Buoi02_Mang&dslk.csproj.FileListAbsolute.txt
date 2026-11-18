@@ -1,0 +1,15 @@
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\bin\Debug\net10.0\Buoi02_Mang&dslk.exe
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\bin\Debug\net10.0\Buoi02_Mang&dslk.deps.json
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\bin\Debug\net10.0\Buoi02_Mang&dslk.runtimeconfig.json
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\bin\Debug\net10.0\Buoi02_Mang&dslk.dll
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\bin\Debug\net10.0\Buoi02_Mang&dslk.pdb
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\Buoi02_Mang&dslk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\Buoi02_Mang&dslk.AssemblyInfoInputs.cache
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\Buoi02_Mang&dslk.AssemblyInfo.cs
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\Buoi02_Mang&dslk.csproj.CoreCompileInputs.cache
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\Buoi02_Mang&dslk.dll
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\refint\Buoi02_Mang&dslk.dll
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\Buoi02_Mang&dslk.pdb
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\Buoi02_Mang&dslk.genruntimeconfig.cache
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\ref\Buoi02_Mang&dslk.dll
+C:\Users\MTinhBaoPhuc\Documents\Buoi02_Mang&dslk\obj\Debug\net10.0\Buoi02_M.FC9F4962.Up2Date

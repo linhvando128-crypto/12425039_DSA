@@ -1,0 +1,15 @@
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\bin\Debug\net10.0\Buoi02_DanhSach.exe
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\bin\Debug\net10.0\Buoi02_DanhSach.deps.json
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\bin\Debug\net10.0\Buoi02_DanhSach.runtimeconfig.json
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\bin\Debug\net10.0\Buoi02_DanhSach.dll
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\bin\Debug\net10.0\Buoi02_DanhSach.pdb
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\Buoi02_DanhSach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\Buoi02_DanhSach.AssemblyInfoInputs.cache
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\Buoi02_DanhSach.AssemblyInfo.cs
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\Buoi02_DanhSach.csproj.CoreCompileInputs.cache
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\Buoi02_DanhSach.sourcelink.json
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\Buoi02_DanhSach.dll
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\refint\Buoi02_DanhSach.dll
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\Buoi02_DanhSach.pdb
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\Buoi02_DanhSach.genruntimeconfig.cache
+C:\Users\MTinhBaoPhuc\Documents\12425039_DSA\Buoi02_DanhSach\obj\Debug\net10.0\ref\Buoi02_DanhSach.dll
