@@ -1,8 +1,8 @@
 # Buoi01_DeQuy
 
 
-- Họ tên: Vũ Xuân Bắc
-- MSV: 10125036
+- Họ tên: Đỗ Văn Linh
+- MSV: 12425039
 - Lớp: 124251
 
 ## Bài đã làm
