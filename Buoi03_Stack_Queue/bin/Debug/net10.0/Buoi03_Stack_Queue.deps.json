@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Buoi03_Stack_Queue/1.0.0": {
+        "runtime": {
+          "Buoi03_Stack_Queue.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Buoi03_Stack_Queue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
