@@ -1,59 +1,75 @@
-Buoi03_Stack_Queue
-Họ tên: Đỗ Văn Linh
-MSV: 12425039
-Lớp: 124251
-Bài đã làm
-bài tập chương
-Bài	Nội dung
-1	Kiểm tra tính đúng đắn của biểu thức toán học: dùng Stack kiểm tra các cặp ngoặc (), [], {} có khớp và đúng thứ tự hay không
-2	Mô phỏng lịch sử trình duyệt web: dùng hai Stack (back, forward) cho thao tác Truy cập, Back, Forward và hiển thị trang hiện tại
-3	Mô phỏng quá trình thực thi chương trình (Function Call Stack): đẩy/lấy khung hàm (tên hàm, tham số, địa chỉ trả về), có ví dụ đệ quy GiaiThua(3)
-4	Mô phỏng hệ thống in: dùng Queue, thêm yêu cầu in (Enqueue), xử lý yêu cầu in (Dequeue), hiển thị các yêu cầu đang chờ
-5	Mô phỏng đường truyền dữ liệu: dùng Queue chứa các gói tin được đánh số thứ tự, gửi (Enqueue) và xử lý (Dequeue) theo thứ tự đến
-6	Mô phỏng hàng đợi tại Trung tâm Dịch vụ Khách hàng / ngân hàng: Queue các đối tượng KhachHang (tên, thời gian đến, loại dịch vụ) (thời gian đến lấy theo giờ hệ thống nên thay đổi mỗi lần chạy)
-bài tập cuối sách
-Bài	Nội dung
-4	Mô phỏng lịch sử trình duyệt web: hai Stack back/forward, các thao tác Visit, Back, Forward
-5	Kiểm tra chuỗi ngoặc ( ) đúng: chuỗi chỉ gồm ( và ), dùng Stack để kiểm tra
-6	Mô phỏng hệ thống in: Queue các tài liệu cần in
-7	Mô phỏng đường truyền dữ liệu: Queue các gói dữ liệu, gửi và nhận theo thứ tự
-8	Mô phỏng dịch vụ khách hàng: Queue khách hàng chờ, phục vụ theo thứ tự đến
-9	Tính giá trị biểu thức hậu tố bằng Stack
-10	Kiểm tra tính hợp lệ của biểu thức trung tố (ký tự, ngoặc, toán tử liên tiếp, đầu/cuối biểu thức)
-11	Tính giá trị biểu thức trung tố: kiểm tra hợp lệ, chuyển sang hậu tố bằng Stack rồi tính giá trị
-Lệnh chạy
-
-Chương trình có menu chọn bài, chạy bằng dotnet run rồi nhập số thứ tự bài (0 để thoát). Sau mỗi bài, nhấn phím bất kỳ để quay lại menu.
-
-bài tập chương
-bash
+# Buoi03_Stack_Queue
+ 
+- Họ tên: Đỗ Văn Linh
+- MSV: 12425039
+- Lớp: 124251
+## Bài đã làm
+ 
+### bài tập chương
+ 
+| Bài | Nội dung |
+|---|---|
+| 1 | Kiểm tra tính đúng đắn của biểu thức toán học |
+| 2 | Mô phỏng lịch sử trình duyệt web |
+| 3 | Mô phỏng quá trình thực thi chương trình (Function Call Stack) |
+| 4 | Mô phỏng hệ thống in |
+| 5 | Mô phỏng đường truyền dữ liệu |
+| 6 | Mô phỏng hàng đợi tại Trung tâm Dịch vụ Khách hàng / ngân hàng |
+ 
+### bài tập cuối sách
+ 
+| Bài | Nội dung |
+|---|---|
+| 4 | Mô phỏng lịch sử trình duyệt web: hai Stack back/forward, các thao tác Visit, Back, Forward |
+| 5 | Kiểm tra chuỗi ngoặc ( ) đúng: chuỗi chỉ gồm ( và ), dùng Stack để kiểm tra |
+| 6 | Mô phỏng hệ thống in: Queue các tài liệu cần in |
+| 7 | Mô phỏng đường truyền dữ liệu: Queue các gói dữ liệu, gửi và nhận theo thứ tự |
+| 8 | Mô phỏng dịch vụ khách hàng: Queue khách hàng chờ, phục vụ theo thứ tự đến |
+| 9 | Tính giá trị biểu thức hậu tố bằng Stack |
+| 10 | Kiểm tra tính hợp lệ của biểu thức trung tố (ký tự, ngoặc, toán tử liên tiếp, đầu/cuối biểu thức) |
+| 11 | Tính giá trị biểu thức trung tố: kiểm tra hợp lệ, chuyển sang hậu tố bằng Stack rồi tính giá trị |
+ 
+## Lệnh chạy
+ 
+Chương trình có menu chọn bài, chạy bằng `dotnet run --project Buoi03_Stack_Queue` rồi nhập số thứ tự bài (0 để thoát). Sau mỗi bài, nhấn phím bất kỳ để quay lại menu.
+ 
+### bài tập chương
+ 
+```bash
 dotnet run   # nhập 1  -> Bài 1
 dotnet run   # nhập 2  -> Bài 2
 dotnet run   # nhập 3  -> Bài 3
 dotnet run   # nhập 4  -> Bài 4
 dotnet run   # nhập 5  -> Bài 5
 dotnet run   # nhập 6  -> Bài 6
-bài tập cuối sách
-bash
-dotnet run   # nhập 7   -> Bài 4
-dotnet run   # nhập 8   -> Bài 5
-dotnet run   # nhập 9   -> Bài 6
+```
+ 
+### bài tập cuối sách
+ 
+```bash
+dotnet run   # nhập 7  -> Bài 4
+dotnet run   # nhập 8  -> Bài 5
+dotnet run   # nhập 9  -> Bài 6
 dotnet run   # nhập 10  -> Bài 7
 dotnet run   # nhập 11  -> Bài 8
 dotnet run   # nhập 12  -> Bài 9
 dotnet run   # nhập 13  -> Bài 10
 dotnet run   # nhập 14  -> Bài 11
-Kết quả chạy
-
-Ghi chú: với các bài có menu con, đoạn [menu] là phần menu của bài được in lại sau mỗi thao tác (đã lược bớt cho gọn).
-
-bài tập chương
-bài1
-csharp
+```
+ 
+## Kết quả chạy
+ 
+> Ghi chú: với các bài có menu con, đoạn `[menu]` là phần menu của bài được in lại sau mỗi thao tác (đã lược bớt cho gọn).
+ 
+### bài tập chương
+ 
+### bài1
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai01
@@ -65,11 +81,11 @@ namespace BTTH03
                 || (mo == '[' && dong == ']')
                 || (mo == '{' && dong == '}');
         }
-
+ 
         static bool KiemTraBieuThuc(string bieuThuc)
         {
             Stack<char> st = new Stack<char>();
-
+ 
             // Duyệt từng ký tự của biểu thức
             foreach (char c in bieuThuc)
             {
@@ -83,7 +99,7 @@ namespace BTTH03
                     // Gặp ngoặc đóng -> Stack rỗng thì sai
                     if (st.Count == 0)
                         return false;
-
+ 
                     // Lấy phần tử đỉnh ra, không khớp loại ngoặc thì sai
                     char mo = st.Pop();
                     if (!KhopNgoac(mo, c))
@@ -91,11 +107,11 @@ namespace BTTH03
                 }
                 // Các ký tự khác (số, toán tử, chữ...) thì bỏ qua
             }
-
+ 
             // Duyệt hết: Stack rỗng thì hợp lệ, còn ngoặc mở chưa đóng thì sai
             return st.Count == 0;
         }
-
+ 
         public static void Run()
         {
             Console.WriteLine("== KIỂM TRA TÍNH ĐÚNG ĐẮN CỦA BIỂU THỨC TOÁN HỌC ==");
@@ -103,7 +119,7 @@ namespace BTTH03
             Console.WriteLine("Ví dụ sai   : (1 + [2 * 3)]");
             Console.Write("Nhập biểu thức: ");
             string bieuThuc = Console.ReadLine() ?? "";
-
+ 
             if (KiemTraBieuThuc(bieuThuc))
                 Console.WriteLine("=> Biểu thức hợp lệ.");
             else
@@ -111,29 +127,35 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 1
-
+ 
 == KIỂM TRA TÍNH ĐÚNG ĐẮN CỦA BIỂU THỨC TOÁN HỌC ==
 Ví dụ hợp lệ: {[(1 + 2) * 3] - 4}
 Ví dụ sai   : (1 + [2 * 3)]
 Nhập biểu thức: {[(1 + 2) * 3] - 4}
 => Biểu thức hợp lệ.
-
+ 
 Chọn: 1
-
+ 
 == KIỂM TRA TÍNH ĐÚNG ĐẮN CỦA BIỂU THỨC TOÁN HỌC ==
 Ví dụ hợp lệ: {[(1 + 2) * 3] - 4}
 Ví dụ sai   : (1 + [2 * 3)]
 Nhập biểu thức: (1 + [2 * 3)]
 => Biểu thức sai.
-bài2
-csharp
+```
+ 
+### bài2
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai02
@@ -141,7 +163,7 @@ namespace BTTH03
         static Stack<string> backStack = new Stack<string>();      // lịch sử "Back"
         static Stack<string> forwardStack = new Stack<string>();   // lịch sử "Forward"
         static string trangHienTai = "";
-
+ 
         // Truy cập trang mới: đẩy trang hiện tại vào Back, xóa sạch Forward
         static void TruyCap(string url)
         {
@@ -151,7 +173,7 @@ namespace BTTH03
             forwardStack.Clear();
             Console.WriteLine("Đang truy cập: " + trangHienTai);
         }
-
+ 
         // Nhấn "Back": đẩy trang hiện tại vào Forward, lấy trang từ Back ra hiển thị
         static void Back()
         {
@@ -164,7 +186,7 @@ namespace BTTH03
             trangHienTai = backStack.Pop();
             Console.WriteLine("Quay lại: " + trangHienTai);
         }
-
+ 
         // Nhấn "Forward": đẩy trang hiện tại vào Back, lấy trang từ Forward ra hiển thị
         static void Forward()
         {
@@ -177,7 +199,7 @@ namespace BTTH03
             trangHienTai = forwardStack.Pop();
             Console.WriteLine("Chuyển tiếp: " + trangHienTai);
         }
-
+ 
         static void HienThiTrangHienTai()
         {
             if (trangHienTai == "")
@@ -185,14 +207,14 @@ namespace BTTH03
             else
                 Console.WriteLine("Trang hiện tại: " + trangHienTai);
         }
-
+ 
         public static void Run()
         {
             // Đặt lại dữ liệu mỗi lần vào bài
             backStack.Clear();
             forwardStack.Clear();
             trangHienTai = "";
-
+ 
             string chon;
             do
             {
@@ -204,7 +226,7 @@ namespace BTTH03
                 Console.WriteLine("0. Thoát");
                 Console.Write("Chọn: ");
                 chon = (Console.ReadLine() ?? "").Trim();
-
+ 
                 if (chon == "1")
                 {
                     Console.Write("Nhập URL: ");
@@ -222,62 +244,68 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 2
-
+ 
 [menu]
 Chọn: 1
 Nhập URL: google.com
 Đang truy cập: google.com
-
+ 
 [menu]
 Chọn: 1
 Nhập URL: github.com
 Đang truy cập: github.com
-
+ 
 [menu]
 Chọn: 1
 Nhập URL: stackoverflow.com
 Đang truy cập: stackoverflow.com
-
+ 
 [menu]
 Chọn: 2
 Quay lại: github.com
-
+ 
 [menu]
 Chọn: 2
 Quay lại: google.com
-
+ 
 [menu]
 Chọn: 2
 Không thể quay lại!
-
+ 
 [menu]
 Chọn: 3
 Chuyển tiếp: github.com
-
+ 
 [menu]
 Chọn: 4
 Trang hiện tại: github.com
-
+ 
 [menu]
 Chọn: 1
 Nhập URL: youtube.com
 Đang truy cập: youtube.com
-
+ 
 [menu]
 Chọn: 3
 Không thể chuyển tiếp!
-
+ 
 [menu]
 Chọn: 0
-bài3
-csharp
+```
+ 
+### bài3
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai03
@@ -287,7 +315,7 @@ namespace BTTH03
             public string TenHam;
             public string ThamSo;
             public string DiaChiTraVe;
-
+ 
             public KhungNganXep(string tenHam, string thamSo, string diaChiTraVe)
             {
                 TenHam = tenHam;
@@ -295,16 +323,16 @@ namespace BTTH03
                 DiaChiTraVe = diaChiTraVe;
             }
         }
-
+ 
         static Stack<KhungNganXep> callStack = new Stack<KhungNganXep>();
-
+ 
         // Gọi hàm: đẩy khung mới vào Stack
         static void GoiHam(string tenHam, string thamSo, string diaChiTraVe)
         {
             callStack.Push(new KhungNganXep(tenHam, thamSo, diaChiTraVe));
             Console.WriteLine($"-> Gọi hàm {tenHam}({thamSo}), đã đẩy khung vào Stack.");
         }
-
+ 
         // Hàm kết thúc: lấy khung ra khỏi Stack
         static void KetThucHam()
         {
@@ -316,7 +344,7 @@ namespace BTTH03
             KhungNganXep khung = callStack.Pop();
             Console.WriteLine($"<- Hàm {khung.TenHam} kết thúc, trả về {khung.DiaChiTraVe}.");
         }
-
+ 
         // Hiển thị Stack từ đỉnh xuống đáy
         static void HienThiStack()
         {
@@ -329,24 +357,24 @@ namespace BTTH03
             foreach (KhungNganXep k in callStack)
                 Console.WriteLine($"  {k.TenHam}({k.ThamSo})  - địa chỉ trả về: {k.DiaChiTraVe}");
         }
-
+ 
         // Ví dụ mô phỏng hàm đệ quy GiaiThua(n)
         static void GiaiThua(int n, string diaChiTraVe)
         {
             GoiHam("GiaiThua", n.ToString(), diaChiTraVe);
             HienThiStack();
-
+ 
             if (n > 1)
                 GiaiThua(n - 1, "GiaiThua(" + n + ")");
-
+ 
             KetThucHam();
             HienThiStack();
         }
-
+ 
         public static void Run()
         {
             callStack.Clear();
-
+ 
             string chon;
             do
             {
@@ -358,7 +386,7 @@ namespace BTTH03
                 Console.WriteLine("0. Thoát");
                 Console.Write("Chọn: ");
                 chon = (Console.ReadLine() ?? "").Trim();
-
+ 
                 if (chon == "1")
                 {
                     Console.Write("Tên hàm: ");
@@ -367,7 +395,7 @@ namespace BTTH03
                     string thamSo = (Console.ReadLine() ?? "").Trim();
                     Console.Write("Địa chỉ trả về (hàm gọi nó): ");
                     string diaChi = (Console.ReadLine() ?? "").Trim();
-
+ 
                     if (ten == "")
                         Console.WriteLine("Tên hàm không được để trống!");
                     else
@@ -387,10 +415,13 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 3
-
+ 
 [menu]
 Chọn: 4
 -> Gọi hàm Main(), đã đẩy khung vào Stack.
@@ -422,29 +453,32 @@ Chọn: 4
 --- Call Stack (từ đỉnh xuống đáy) ---
   Main()  - địa chỉ trả về: Hệ điều hành
 <- Hàm Main kết thúc, trả về Hệ điều hành.
-
+ 
 [menu]
 Chọn: 3
 --- Call Stack (từ đỉnh xuống đáy) ---
 (rỗng)
-
+ 
 [menu]
 Chọn: 0
-bài4
-csharp
+```
+ 
+### bài4
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
-
+ 
     class Bai04
     {
         public static void Run()
         {
             Queue<string> hangDoi = new Queue<string>();   // lưu các yêu cầu in
-
+ 
             string chon;
             do
             {
@@ -455,7 +489,7 @@ namespace BTTH03
                 Console.WriteLine("0. Thoát");
                 Console.Write("Chọn: ");
                 chon = (Console.ReadLine() ?? "").Trim();
-
+ 
                 if (chon == "1")
                 {
                     Console.Write("Nhập tên tài liệu cần in: ");
@@ -499,62 +533,68 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 4
-
+ 
 [menu]
 Chọn: 1
 Nhập tên tài liệu cần in: Bao cao.docx
 Đã thêm vào hàng đợi: Bao cao.docx
-
+ 
 [menu]
 Chọn: 1
 Nhập tên tài liệu cần in: Hop dong.pdf
 Đã thêm vào hàng đợi: Hop dong.pdf
-
+ 
 [menu]
 Chọn: 1
 Nhập tên tài liệu cần in: Anh the.png
 Đã thêm vào hàng đợi: Anh the.png
-
+ 
 [menu]
 Chọn: 3
 Các yêu cầu đang chờ (đầu hàng đợi ở trên cùng):
   1. Bao cao.docx
   2. Hop dong.pdf
   3. Anh the.png
-
+ 
 [menu]
 Chọn: 2
 Đang in: Bao cao.docx
-
+ 
 [menu]
 Chọn: 3
 Các yêu cầu đang chờ (đầu hàng đợi ở trên cùng):
   1. Hop dong.pdf
   2. Anh the.png
-
+ 
 [menu]
 Chọn: 2
 Đang in: Hop dong.pdf
-
+ 
 [menu]
 Chọn: 2
 Đang in: Anh the.png
-
+ 
 [menu]
 Chọn: 2
 Không có yêu cầu in nào!
-
+ 
 [menu]
 Chọn: 0
-bài5
-csharp
+```
+ 
+### bài5
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai05
@@ -563,7 +603,7 @@ namespace BTTH03
         {
             Queue<string> duongTruyen = new Queue<string>();   // lưu các gói tin
             int soGoi = 0;                                     // đánh số thứ tự gói tin
-
+ 
             string chon;
             do
             {
@@ -574,7 +614,7 @@ namespace BTTH03
                 Console.WriteLine("0. Thoát");
                 Console.Write("Chọn: ");
                 chon = (Console.ReadLine() ?? "").Trim();
-
+ 
                 if (chon == "1")
                 {
                     Console.Write("Nhập nội dung gói tin: ");
@@ -616,62 +656,68 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 5
-
+ 
 [menu]
 Chọn: 1
 Nhập nội dung gói tin: Hello
 Đã gửi Gói 1: Hello
-
+ 
 [menu]
 Chọn: 1
 Nhập nội dung gói tin: Xin chao
 Đã gửi Gói 2: Xin chao
-
+ 
 [menu]
 Chọn: 1
 Nhập nội dung gói tin: Data 123
 Đã gửi Gói 3: Data 123
-
+ 
 [menu]
 Chọn: 3
 Các gói tin đang chờ (theo thứ tự đến):
   - Gói 1: Hello
   - Gói 2: Xin chao
   - Gói 3: Data 123
-
+ 
 [menu]
 Chọn: 2
 Đã xử lý -> Gói 1: Hello
-
+ 
 [menu]
 Chọn: 3
 Các gói tin đang chờ (theo thứ tự đến):
   - Gói 2: Xin chao
   - Gói 3: Data 123
-
+ 
 [menu]
 Chọn: 2
 Đã xử lý -> Gói 2: Xin chao
-
+ 
 [menu]
 Chọn: 2
 Đã xử lý -> Gói 3: Data 123
-
+ 
 [menu]
 Chọn: 2
 Không có gói tin nào để xử lý!
-
+ 
 [menu]
 Chọn: 0
-bài6
-csharp
+```
+ 
+### bài6
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai06
@@ -682,7 +728,7 @@ namespace BTTH03
             public string Ten;
             public string ThoiGianDen;
             public string LoaiDichVu;
-
+ 
             public KhachHang(string ten, string loaiDichVu)
             {
                 Ten = ten;
@@ -690,11 +736,11 @@ namespace BTTH03
                 ThoiGianDen = DateTime.Now.ToString("HH:mm:ss");   // giờ khách đến
             }
         }
-
+ 
         public static void Run()
         {
             Queue<KhachHang> hangDoi = new Queue<KhachHang>();
-
+ 
             string chon;
             do
             {
@@ -705,14 +751,14 @@ namespace BTTH03
                 Console.WriteLine("0. Thoát");
                 Console.Write("Chọn: ");
                 chon = (Console.ReadLine() ?? "").Trim();
-
+ 
                 if (chon == "1")
                 {
                     Console.Write("Tên khách hàng: ");
                     string ten = (Console.ReadLine() ?? "").Trim();
                     Console.Write("Loại dịch vụ (ví dụ: Gửi tiền, Rút tiền, Tư vấn): ");
                     string loai = (Console.ReadLine() ?? "").Trim();
-
+ 
                     if (ten == "")
                     {
                         Console.WriteLine("Tên khách hàng không được để trống!");
@@ -754,54 +800,62 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 6
-
+ 
 [menu]
 Chọn: 1
 Tên khách hàng: Nguyen Van A
 Loại dịch vụ (ví dụ: Gửi tiền, Rút tiền, Tư vấn): Gui tien
 Đã thêm Nguyen Van A vào hàng đợi lúc 08:30:15.
-
+ 
 [menu]
 Chọn: 1
 Tên khách hàng: Tran Thi B
 Loại dịch vụ (ví dụ: Gửi tiền, Rút tiền, Tư vấn): Rut tien
 Đã thêm Tran Thi B vào hàng đợi lúc 08:30:42.
-
+ 
 [menu]
 Chọn: 1
 Tên khách hàng: Le Van C
 Loại dịch vụ (ví dụ: Gửi tiền, Rút tiền, Tư vấn): Tu van
 Đã thêm Le Van C vào hàng đợi lúc 08:31:05.
-
+ 
 [menu]
 Chọn: 3
 Số khách hàng đang chờ: 3
   1. Nguyen Van A - Gui tien - đến lúc 08:30:15
   2. Tran Thi B - Rut tien - đến lúc 08:30:42
   3. Le Van C - Tu van - đến lúc 08:31:05
-
+ 
 [menu]
 Chọn: 2
 Đang phục vụ: Nguyen Van A - Dịch vụ: Gui tien - Đến lúc: 08:30:15
-
+ 
 [menu]
 Chọn: 3
 Số khách hàng đang chờ: 2
   1. Tran Thi B - Rut tien - đến lúc 08:30:42
   2. Le Van C - Tu van - đến lúc 08:31:05
-
+ 
 [menu]
 Chọn: 0
 bài tập cuối sách
-bài4 (cuối sách)
-csharp
+```
+ 
+### bài tập cuối sách
+ 
+### bài4 (cuối sách)
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai4
@@ -810,7 +864,7 @@ namespace BTTH03
         static Stack<string> backStack = new Stack<string>();
         static Stack<string> forwardStack = new Stack<string>();
         static string currentPage = "";
-
+ 
         static void Visit(string url)
         {
             if (currentPage != "")
@@ -819,7 +873,7 @@ namespace BTTH03
             forwardStack.Clear();              // xóa rỗng forwardStack
             Console.WriteLine("Đang truy cập: " + currentPage);
         }
-
+ 
         static void Back()
         {
             if (backStack.Count > 0)
@@ -833,7 +887,7 @@ namespace BTTH03
                 Console.WriteLine("Không thể quay lại!");
             }
         }
-
+ 
         static void Forward()
         {
             if (forwardStack.Count > 0)
@@ -847,7 +901,7 @@ namespace BTTH03
                 Console.WriteLine("Không thể tiến lên!");
             }
         }
-
+ 
         static void ShowCurrentPage()
         {
             if (currentPage == "")
@@ -855,13 +909,13 @@ namespace BTTH03
             else
                 Console.WriteLine("Trang hiện tại: " + currentPage);
         }
-
+ 
         public static void Run()
         {
             backStack.Clear();
             forwardStack.Clear();
             currentPage = "";
-
+ 
             string chon;
             do
             {
@@ -873,7 +927,7 @@ namespace BTTH03
                 Console.WriteLine("0. Thoát");
                 Console.Write("Chọn: ");
                 chon = (Console.ReadLine() ?? "").Trim();
-
+ 
                 if (chon == "1")
                 {
                     Console.Write("Nhập URL: ");
@@ -891,52 +945,58 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 7
-
+ 
 [menu]
 Chọn: 1
 Nhập URL: google.com
 Đang truy cập: google.com
-
+ 
 [menu]
 Chọn: 1
 Nhập URL: facebook.com
 Đang truy cập: facebook.com
-
+ 
 [menu]
 Chọn: 4
 Trang hiện tại: facebook.com
-
+ 
 [menu]
 Chọn: 2
 Quay lại: google.com
-
+ 
 [menu]
 Chọn: 3
 Tiến lên: facebook.com
-
+ 
 [menu]
 Chọn: 3
 Không thể tiến lên!
-
+ 
 [menu]
 Chọn: 2
 Quay lại: google.com
-
+ 
 [menu]
 Chọn: 2
 Không thể quay lại!
-
+ 
 [menu]
 Chọn: 0
-bài5 (cuối sách)
-csharp
+```
+ 
+### bài5 (cuối sách)
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai5
@@ -962,12 +1022,12 @@ namespace BTTH03
             }
             return st.Count == 0; // rỗng -> đúng, còn dư '(' -> sai
         }
-
+ 
         public static void Run()
         {
             Console.Write("Nhập chuỗi chỉ gồm ( và ): ");
             string s = (Console.ReadLine() ?? "").Trim();
-
+ 
             if (KiemTraNgoac(s))
                 Console.WriteLine("Xâu đúng");
             else
@@ -975,23 +1035,29 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 8
-
+ 
 Nhập chuỗi chỉ gồm ( và ): (()())
 Xâu đúng
-
+ 
 Chọn: 8
-
+ 
 Nhập chuỗi chỉ gồm ( và ): (()
 Xâu sai
-bài6 (cuối sách)
-csharp
+```
+ 
+### bài6 (cuối sách)
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai6
@@ -1009,7 +1075,7 @@ namespace BTTH03
                 Console.WriteLine("0. Thoát");
                 Console.Write("Chọn: ");
                 chon = (Console.ReadLine() ?? "").Trim();
-
+ 
                 if (chon == "1")
                 {
                     Console.Write("Nhập tên tài liệu: ");
@@ -1040,55 +1106,61 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 9
-
+ 
 [menu]
 Chọn: 1
 Nhập tên tài liệu: Bai tap.docx
 Đã thêm vào hàng đợi.
-
+ 
 [menu]
 Chọn: 1
 Nhập tên tài liệu: Slide.pptx
 Đã thêm vào hàng đợi.
-
+ 
 [menu]
 Chọn: 3
 Các yêu cầu đang chờ:
  - Bai tap.docx
  - Slide.pptx
-
+ 
 [menu]
 Chọn: 2
 Đang in: Bai tap.docx
-
+ 
 [menu]
 Chọn: 3
 Các yêu cầu đang chờ:
  - Slide.pptx
-
+ 
 [menu]
 Chọn: 2
 Đang in: Slide.pptx
-
+ 
 [menu]
 Chọn: 2
 Không có yêu cầu in nào!
-
+ 
 [menu]
 Chọn: 3
 Hàng đợi trống.
-
+ 
 [menu]
 Chọn: 0
-bài7 (cuối sách)
-csharp
+```
+ 
+### bài7 (cuối sách)
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai7
@@ -1106,7 +1178,7 @@ namespace BTTH03
                 Console.WriteLine("0. Thoát");
                 Console.Write("Chọn: ");
                 chon = (Console.ReadLine() ?? "").Trim();
-
+ 
                 if (chon == "1")
                 {
                     Console.Write("Nhập gói dữ liệu: ");
@@ -1137,62 +1209,68 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 10
-
+ 
 [menu]
 Chọn: 1
 Nhập gói dữ liệu: Packet_1
 Đã gửi gói dữ liệu.
-
+ 
 [menu]
 Chọn: 1
 Nhập gói dữ liệu: Packet_2
 Đã gửi gói dữ liệu.
-
+ 
 [menu]
 Chọn: 1
 Nhập gói dữ liệu: Packet_3
 Đã gửi gói dữ liệu.
-
+ 
 [menu]
 Chọn: 3
 Các gói dữ liệu còn trong hàng đợi:
  - Packet_1
  - Packet_2
  - Packet_3
-
+ 
 [menu]
 Chọn: 2
 Đã nhận: Packet_1
-
+ 
 [menu]
 Chọn: 3
 Các gói dữ liệu còn trong hàng đợi:
  - Packet_2
  - Packet_3
-
+ 
 [menu]
 Chọn: 2
 Đã nhận: Packet_2
-
+ 
 [menu]
 Chọn: 2
 Đã nhận: Packet_3
-
+ 
 [menu]
 Chọn: 2
 Không có dữ liệu để nhận!
-
+ 
 [menu]
 Chọn: 0
-bài8 (cuối sách)
-csharp
+```
+ 
+### bài8 (cuối sách)
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai8
@@ -1210,7 +1288,7 @@ namespace BTTH03
                 Console.WriteLine("0. Thoát");
                 Console.Write("Chọn: ");
                 chon = (Console.ReadLine() ?? "").Trim();
-
+ 
                 if (chon == "1")
                 {
                     Console.Write("Nhập tên hoặc số thứ tự khách hàng: ");
@@ -1241,62 +1319,68 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 11
-
+ 
 [menu]
 Chọn: 1
 Nhập tên hoặc số thứ tự khách hàng: Khach 01
 Đã thêm khách hàng vào hàng đợi.
-
+ 
 [menu]
 Chọn: 1
 Nhập tên hoặc số thứ tự khách hàng: Khach 02
 Đã thêm khách hàng vào hàng đợi.
-
+ 
 [menu]
 Chọn: 1
 Nhập tên hoặc số thứ tự khách hàng: Khach 03
 Đã thêm khách hàng vào hàng đợi.
-
+ 
 [menu]
 Chọn: 3
 Khách hàng đang chờ:
  - Khach 01
  - Khach 02
  - Khach 03
-
+ 
 [menu]
 Chọn: 2
 Đang phục vụ: Khach 01
-
+ 
 [menu]
 Chọn: 2
 Đang phục vụ: Khach 02
-
+ 
 [menu]
 Chọn: 3
 Khách hàng đang chờ:
  - Khach 03
-
+ 
 [menu]
 Chọn: 2
 Đang phục vụ: Khach 03
-
+ 
 [menu]
 Chọn: 2
 Không có khách hàng nào trong hàng đợi!
-
+ 
 [menu]
 Chọn: 0
-bài9 (cuối sách)
-csharp
+```
+ 
+### bài9 (cuối sách)
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     // Các phần tử của biểu thức hậu tố cách nhau bởi dấu cách. Ví dụ: 3 4 2 * +  => 11
@@ -1307,13 +1391,13 @@ namespace BTTH03
         {
             return double.TryParse(s, NumberStyles.Float, CultureInfo.InvariantCulture, out _);
         }
-
+ 
         // Tính giá trị biểu thức hậu tố (Bài 11 dùng lại hàm này)
         public static double TinhHauTo(string postfix)
         {
             Stack<double> stack = new Stack<double>();
             IEnumerable<string> enumer = postfix.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-
+ 
             foreach (string x in enumer)
             {
                 if (IsOperand(x))
@@ -1326,11 +1410,11 @@ namespace BTTH03
                     // toán tử -> lấy 2 phần tử ra tính
                     if (stack.Count < 2)
                         throw new Exception("Biểu thức hậu tố không hợp lệ!");
-
+ 
                     double b = stack.Pop();   // lấy ra trước là toán hạng phải
                     double a = stack.Pop();
                     double r;
-
+ 
                     if (x == "+") r = a + b;
                     else if (x == "-") r = a - b;
                     else if (x == "*") r = a * b;
@@ -1340,23 +1424,23 @@ namespace BTTH03
                         r = a / b;
                     }
                     else throw new Exception("Toán tử không hợp lệ: " + x);
-
+ 
                     stack.Push(r);            // đưa kết quả vào lại stack
                 }
             }
-
+ 
             if (stack.Count != 1)
                 throw new Exception("Biểu thức hậu tố không hợp lệ!");
-
+ 
             return stack.Pop(); // phần tử còn lại chính là kết quả
         }
-
+ 
         public static void Run()
         {
             Console.WriteLine("Nhập biểu thức hậu tố (các phần tử cách nhau bởi dấu cách), ví dụ: 3 4 2 * +");
             Console.Write("Biểu thức: ");
             string s = Console.ReadLine() ?? "";
-
+ 
             try
             {
                 double kq = TinhHauTo(s);
@@ -1369,31 +1453,37 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 12
-
+ 
 Nhập biểu thức hậu tố (các phần tử cách nhau bởi dấu cách), ví dụ: 3 4 2 * +
 Biểu thức: 3 4 2 * +
 Kết quả = 11
-
+ 
 Chọn: 12
-
+ 
 Nhập biểu thức hậu tố (các phần tử cách nhau bởi dấu cách), ví dụ: 3 4 2 * +
 Biểu thức: 5 1 2 + 4 * + 3 -
 Kết quả = 14
-
+ 
 Chọn: 12
-
+ 
 Nhập biểu thức hậu tố (các phần tử cách nhau bởi dấu cách), ví dụ: 3 4 2 * +
 Biểu thức: 4 0 /
 Lỗi chia cho 0!
-bài10 (cuối sách)
-csharp
+```
+ 
+### bài10 (cuối sách)
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai10
@@ -1402,30 +1492,30 @@ namespace BTTH03
         {
             return c == '+' || c == '-' || c == '*' || c == '/';
         }
-
+ 
         static bool IsOpen(char c)
         {
             return c == '(' || c == '[' || c == '{';
         }
-
+ 
         static bool IsClose(char c)
         {
             return c == ')' || c == ']' || c == '}';
         }
-
+ 
         // Kiểm tra biểu thức trung tố hợp lệ (Bài 11 dùng lại hàm này)
         public static bool IsValidInfix(string e)
         {
             string s = e.Replace(" ", "");   // bỏ dấu cách cho dễ xử lý
             if (s.Length == 0) return false;
-
+ 
             // 1. Kiểm tra ký tự hợp lệ
             foreach (char c in s)
             {
                 if (!(char.IsDigit(c) || c == '.' || IsOperator(c) || IsOpen(c) || IsClose(c)))
                     return false;
             }
-
+ 
             // 2. Kiểm tra ngoặc bằng stack
             Stack<char> st = new Stack<char>();
             foreach (char c in s)
@@ -1444,10 +1534,10 @@ namespace BTTH03
                 }
             }
             if (st.Count != 0) return false;           // còn ngoặc mở chưa đóng
-
+ 
             // 3. Không bắt đầu hoặc kết thúc bằng toán tử
             if (IsOperator(s[0]) || IsOperator(s[s.Length - 1])) return false;
-
+ 
             // 4. Không có 2 toán tử liên tiếp, không có "( +" hoặc "+ )"
             for (int i = 1; i < s.Length; i++)
             {
@@ -1457,15 +1547,15 @@ namespace BTTH03
                 if (IsOpen(prev) && IsOperator(cur)) return false;
                 if (IsOperator(prev) && IsClose(cur)) return false;
             }
-
+ 
             return true;
         }
-
+ 
         public static void Run()
         {
             Console.Write("Nhập biểu thức trung tố: ");
             string e = Console.ReadLine() ?? "";
-
+ 
             if (IsValidInfix(e))
                 Console.WriteLine("Biểu thức hợp lệ");
             else
@@ -1473,28 +1563,34 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 13
-
+ 
 Nhập biểu thức trung tố: (3 + 5) * [2 - 4]
 Biểu thức hợp lệ
-
+ 
 Chọn: 13
-
+ 
 Nhập biểu thức trung tố: 3 + * 5
 Biểu thức không hợp lệ
-
+ 
 Chọn: 13
-
+ 
 Nhập biểu thức trung tố: (3 + 5
 Biểu thức không hợp lệ
-bài11 (cuối sách)
-csharp
+```
+ 
+### bài11 (cuối sách)
+ 
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+ 
 namespace BTTH03
 {
     class Bai11
@@ -1506,7 +1602,7 @@ namespace BTTH03
             if (op == "+" || op == "-") return 1;
             return 0; // dấu "("
         }
-
+ 
         // Tách biểu thức thành các phần tử (số nhiều chữ số được giữ nguyên)
         static List<string> TachPhanTu(string e)
         {
@@ -1527,14 +1623,14 @@ namespace BTTH03
             if (so != "") ds.Add(so);
             return ds;
         }
-
+ 
         // Chuyển trung tố E sang hậu tố E1
         static string HauTo(string E)
         {
             Stack<string> St = new Stack<string>();      // lưu các phép toán
             StringBuilder E1 = new StringBuilder();      // lưu biểu thức hậu tố
             List<string> enumer = TachPhanTu(E);
-
+ 
             foreach (string s in enumer)
             {
                 if (s == "(")
@@ -1559,32 +1655,32 @@ namespace BTTH03
                     St.Push(s);
                 }
             }
-
+ 
             while (St.Count > 0)                         // lấy hết phần tử còn lại
                 E1.Append(St.Pop() + " ");
-
+ 
             return E1.ToString().Trim();
         }
-
+ 
         public static void Run()
         {
             Console.Write("Nhập biểu thức trung tố (ví dụ: 3 + 5 * (2 - 4)): ");
             string e = Console.ReadLine() ?? "";
-
+ 
             // 1. Kiểm tra tính hợp lệ
             if (!Bai10.IsValidInfix(e))
             {
                 Console.WriteLine("Biểu thức không hợp lệ!");
                 return;
             }
-
+ 
             // Đề bài chỉ dùng ngoặc (), nên đổi [ ] { } thành ( ) để xử lý chung
             e = e.Replace('[', '(').Replace('{', '(').Replace(']', ')').Replace('}', ')');
-
+ 
             // 2. Chuyển sang hậu tố
             string hauTo = HauTo(e);
             Console.WriteLine("Biểu thức hậu tố: " + hauTo);
-
+ 
             // 3. Tính giá trị biểu thức hậu tố
             try
             {
@@ -1598,21 +1694,26 @@ namespace BTTH03
         }
     }
 }
-kết quả
-text
+```
+ 
+#### kết quả
+ 
+```text
 Chọn: 14
-
+ 
 Nhập biểu thức trung tố (ví dụ: 3 + 5 * (2 - 4)): 3 + 5 * (2 - 4)
 Biểu thức hậu tố: 3 5 2 4 - * +
 Kết quả = -7
-
+ 
 Chọn: 14
-
+ 
 Nhập biểu thức trung tố (ví dụ: 3 + 5 * (2 - 4)): {[(1 + 2) * 3] - 4} / 5
 Biểu thức hậu tố: 1 2 + 3 * 4 - 5 /
 Kết quả = 1
-
+ 
 Chọn: 14
-
+ 
 Nhập biểu thức trung tố (ví dụ: 3 + 5 * (2 - 4)): 3 + * 5
 Biểu thức không hợp lệ!
+```
+ 
